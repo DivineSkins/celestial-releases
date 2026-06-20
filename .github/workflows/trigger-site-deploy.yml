@@ -1,0 +1,21 @@
+name: Trigger site deploy on release
+on:
+  release:
+    types: [published]
+permissions:
+  contents: read
+concurrency:
+  group: site-deploy
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping site deploy hook
+        env:
+          DEPLOY_HOOK_URL: ${{ secrets.DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$DEPLOY_HOOK_URL" ]; then
+            echo "DEPLOY_HOOK_URL secret not set; skipping." && exit 0
+          fi
+          curl -fsSL -X POST "$DEPLOY_HOOK_URL"
