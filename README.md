@@ -64,16 +64,12 @@ Compatibility depends on the individual mod and the current League patch. Some s
 3. Open Celestial from Applications and select your League installation during setup.
 4. When applying skins, approve Celestial's helper if macOS prompts you.
 
-Run the app from Applications so it can install automatic updates. If you are upgrading from Mac version 2.1.0 or earlier, install the current DMG once to get automatic updates.
-
 ## Using skins
 
 1. Browse [Divine Skins](https://divineskins.gg/explore-mods), use the in-app store, or import a supported package.
 2. Enable the skins you want and choose any packaged variants in your library.
 3. Start the patcher or select **Apply skins** on Mac before entering a new game. The League client can already be open.
 4. Launch your game normally.
-
-On Mac, selection changes and Stop affect future games. A game already running keeps its prepared skins.
 
 For a skin with issues, right-click it to access repair tools. Automatic import fixes are optional and can be enabled in **Settings → Import**.
 
@@ -85,8 +81,20 @@ For a skin with issues, right-click it to access repair tools. Automatic import 
 
 When reporting a problem, include your operating system, Celestial version, League patch, the affected skin and any error message.
 
+## Custom skin safety
+
+Custom skins change visuals locally: only you see them, and they provide no gameplay advantage. Riot does not officially approve custom models and classifies them as **"use at your own risk"**.
+
+The community has used custom skins for over ten years. We are not aware of bans for ordinary custom skins outside Korea and China. That track record is not a guarantee of future enforcement.
+
+**Do not use custom skins on Korean (KR) or Chinese (CN) servers.** Our terms prohibit mods in those regions.
+
+**Skin hacks are prohibited on Divine Skins and in Celestial.** Tools that unlock Riot's paid skins for free are different from original community cosmetics.
+
+Read our full guide: [Are Custom Skins Safe in League of Legends?](https://www.divineskins.gg/blog/are-custom-skins-safe-in-league-of-legends).
+
 ## Disclaimer
 
-Celestial is intended for client-side cosmetic customization. Use it at your own risk. Celestial and Divine Skins are not endorsed by, sponsored by or affiliated with Riot Games.
+Celestial and Divine Skins are not endorsed by, sponsored by or affiliated with Riot Games.
 
-Game updates can affect skin compatibility. Signing and notarization verify the Mac application's distribution; they do not guarantee compatibility with every skin or game update.
+Game updates can affect skin compatibility.
